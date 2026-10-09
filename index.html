@@ -1,25 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- css link 1 and file name univarsalStyle.css -->
+  <link rel="stylesheet" href="univarsalStyle.css">
+  <!-- main styling -->
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mash Editor</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>2d game engine</title>
 </head>
 <body>
-  <!-- 15px button -->
-  <button id="ftinpx-fn-sz">15px</button>
-  <!-- back button -->
-  <button id="back">BACK</button>
-  <!-- text box -->
-  <textarea id="textBox" autocapitalize="off"></textarea><br>
-  <!-- run btn -->
-  <button id="runBtn">run</button>
-  <!-- outputBox -->
-  <div id="outputBox"></div>
-  <!-- html parser link -->
-  <script src="htmlparser.js"></script>
-  <!-- js link  -->
+  <!-- container -->
+  <div class="contain">
+    <!-- header -->
+    <div class="header">
+      <!-- headers tags-->
+      <header>
+        <!-- head -->
+        <div class="head">
+          <!-- engine name-->
+          <h1>mash engine</h1>
+          <!-- one line -->
+          <div class="add-line">
+            <hr>
+          </div>
+          <div class="addcube">
+            <button id="add-cube">add cube</button>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!-- engine body  -->
+    <div class="bich">
+      <!-- engine game object-->
+      <div class="engineGameObject">
+        
+      </div>
+      <!-- engine game editor-->
+      <div class="engineGameEditor">
+        
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+      <footer>
+        
+      </footer>
+    </div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>

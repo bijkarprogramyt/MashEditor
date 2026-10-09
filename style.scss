@@ -1,90 +1,78 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-$bdy-bg-color:  hwb(93 85% 4%);
-body {
-  font-family: sans-serif;
-  background-color: $bdy-bg-color;
-}
-/* pointer cursor var */
+/* reletive position */
+$relpos: relative;
+/* text tranform capitaliz */
+$upcase: capitalize;
+/* engineGameEditor style */
+/* btn width & height */
+$btnWidth: 100px;
+$btnHeight: 40px;
+/* bold fong weight */
+$bld: bold;
+/* 100% value */
+$onHn: 100%;
+/* pointer cursor */
 $pnter: pointer;
-/* lft margin 10px */
-$margin-tenpx: 10px;
-/* editor fng size 14px */ 
-$ed-fntsize: 14px;
-/* uppercase txt transform */
-$upcase: uppercase;
-/* bold font width */
-$fnt-wdth: bold;
-/* cnter-txt */
-$center-txt: center;
-/* scroll value var */
-$scrl: scroll;
-/* nunu value */
-$nn: none;
-/* text box */
-#textBox {
-  margin-top: $margin-tenpx;
-  margin-left: $margin-tenpx;
-  width: 340px;
-  height: 350px;
-  font-size: $ed-fntsize;
-  padding-left: 5px;
-  padding-top: 5px;
-}
-/* btn background-color var */
-$btn-bg-color: #36f836ff;
-/* button color var */
-$btn-color: white;
-/* run btn */
-#runBtn {
-  width: 90px;
-  height: 40px;
-  margin-left: $margin-tenpx;
-  /* pointer cursor call var */
-  cursor: $pnter;
-  font-size: 18px;
-  text-transform: $upcase;
-  font-weight: $fnt-wdth;
-  background-color: $btn-bg-color;
-  color: $btn-color;
-  border: 1px solid black;
-}
-/* output box */
-#outputBox {
-  width: 340px;
-  height: 350px;
-  padding: 8px;
-  border: 1px solid black;
-  margin-left: $margin-tenpx;
-  font-size: 14px;
-  overflow: $scrl;
-  white-space: pre-line;
-  display: $nn;
-  background-color: $btn-color;
+/* sens serif font */
+$sanSerifFont: sans-serif;
+// border variable 
+$borderVal: 1px solid black;
+.contain {
+  .header{
+    header {
+      .head {
+        h1 {
+          color: #1eb742ff;
+          text-transform: $upcase;
+        }
+        .addcube {
+          /* add cube ke under button tag hota hei tab */
+          button {
+            position: $relpos;
+            left: 8px;
+            top: 25px;
+            width: 100%;
+            max-width: $btnWidth;
+            height: $btnHeight;
+            font-size: 18px;
+            font-weight: $bld;
+            cursor: $pnter;
+          }
+        }
+      }
+    }
+  }
+  .bich {
+    .engineGameObject {
+      
+    }
+    /* game engine editor */
+    .engineGameEditor {
+      width: $onHn;
+      height: 100vh;
+      max-width: $onHn;
+      max-height: 320px;
+      background-color: #6bb2f1;
+      position: $relpos;
+      top: 40px;
+    }
+  }
+  .footer {
+    footer {
+      
+    }
+  }
 }
 
-/* btn var px w + h */
-
-$width: 110px;
-$height: 40px;
-
-/* 15px fnt size */
-
-#ftinpx-fn-sz {
-  width: $width;
-  height: $height;
-  margin: $margin-tenpx;
-  font-weight: $fnt-wdth;
-  cursor: $pnter;
+.add-line {
+  hr {
+    position: $relpos;
+    top: 20px;
+  }
 }
 
-/* back btn */
-
-#back {
-  width: $width;
-  height: $height;
-  font-weight: $fnt-wdth;
-  cursor: $pnter;
+.mObj {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: $borderVal;
 }

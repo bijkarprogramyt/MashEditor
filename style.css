@@ -1,79 +1,51 @@
-* {
-  margin: 0;
-  padding: 0;
+/* reletive position */
+/* text tranform capitaliz */
+/* engineGameEditor style */
+/* btn width & height */
+/* bold fong weight */
+/* 100% value */
+/* pointer cursor */
+/* sens serif font */
+.contain .header header .head h1 {
+  color: #1eb742;
+  text-transform: capitalize;
 }
-
-body {
-  font-family: sans-serif;
-  background-color: hsl(93, 57.8947368421%, 90.5%);
+.contain .header header .head .addcube {
+  /* add cube ke under button tag hota hei tab */
 }
-
-/* pointer cursor var */
-/* lft margin 10px */
-/* editor fng size 14px */
-/* uppercase txt transform */
-/* bold font width */
-/* cnter-txt */
-/* scroll value var */
-/* nunu value */
-/* text box */
-#textBox {
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 340px;
-  height: 350px;
-  font-size: 14px;
-  padding-left: 5px;
-  padding-top: 5px;
-}
-
-/* btn background-color var */
-/* button color var */
-/* run btn */
-#runBtn {
-  width: 90px;
+.contain .header header .head .addcube button {
+  position: relative;
+  left: 8px;
+  top: 25px;
+  width: 100%;
+  max-width: 100px;
   height: 40px;
-  margin-left: 10px;
-  /* pointer cursor call var */
-  cursor: pointer;
   font-size: 18px;
-  text-transform: uppercase;
   font-weight: bold;
-  background-color: #36f836;
-  color: white;
-  border: 1px solid black;
+  cursor: pointer;
+}
+.contain .bich {
+  /* game engine editor */
+}
+.contain .bich .engineGameEditor {
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 320px;
+  background-color: #6bb2f1;
+  position: relative;
+  top: 40px;
+}
+.add-line hr {
+  position: relative;
+  top: 20px;
 }
 
-/* output box */
-#outputBox {
-  width: 340px;
-  height: 350px;
-  padding: 8px;
-  border: 1px solid black;
-  margin-left: 10px;
-  font-size: 14px;
-  overflow: scroll;
-  white-space: pre-line;
-  display: none;
+.mObj {
+  width: 20px;
+  height: 20px;
   background-color: white;
-}
-
-/* btn var px w + h */
-/* 15px fnt size */
-#ftinpx-fn-sz {
-  width: 110px;
-  height: 40px;
-  margin: 10px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-/* back btn */
-#back {
-  width: 110px;
-  height: 40px;
-  font-weight: bold;
-  cursor: pointer;
+  border: 1px solid black;
 }
 
 /*# sourceMappingURL=style.css.map */
